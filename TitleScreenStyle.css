@@ -21,7 +21,7 @@ body
 	background-image: url("Images/Wall.png"); 
 	background-size: 100%;
 	background-repeat: no-repeat;
-    image-rendering: -moz-crisp-edges;          /* Firefox             */
+    image-rendering: -moz-crisp-edges;          
 	image-rendering: pixelated;
 }
 
