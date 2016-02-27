@@ -12,7 +12,7 @@
 	}
 	to 
 	{
-		margin-top: 5%;
+		margin-top: 6%;
 	}
 }
 
@@ -21,14 +21,14 @@ h1
 	font-size: 700%;
 	color: white;
 	font-family: Rocko;
-	animation-duration: 1s;
+	animation-duration: 0.5s;
 	animation-name: TitleAnimation;
 }
 
 body
 {
 	background-image: url("Images/Wall.png"); 
-	background-size: 1270px 670px;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	image-rendering: -moz-crisp-edges;
 }
