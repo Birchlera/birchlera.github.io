@@ -16,6 +16,15 @@
 	}
 }
 
+body
+{
+	background-image: url("Images/Wall.png"); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+    image-rendering: -moz-crisp-edges;          /* Firefox             */
+	image-rendering: pixelated;
+}
+
 h1
 {
 	font-size: 700%;
@@ -25,19 +34,3 @@ h1
 	animation-name: TitleAnimation;
 }
 
-body
-{
-	background-image: url("Images/Wall.png"); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	image-rendering: -moz-crisp-edges;         /* Firefox */
-    image-rendering:   -o-crisp-edges;         /* Opera */
-    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: nearest-neighbor; 
-}
-
-img
-{
-	image-rendering: pixelated;
-}
